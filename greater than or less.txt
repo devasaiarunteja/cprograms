@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int i,j;
+
+    printf("enter the value of i: ");
+
+    scanf("%d",&i);
+
+    printf("enter the value of j: ");
+
+    scanf("%d",&j);
+
+    if(i>j)
+
+    {
+
+        printf("%d is grater than %d",i,j);
+
+    }
+
+    else
+
+    {
+
+         printf("%d is grater than %d",j,i);
+
+    }
+ return 0;
+    
+    
+ 
+}
