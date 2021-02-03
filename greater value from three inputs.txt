@@ -1,0 +1,131 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int a,b,c;
+
+    printf("Enter First Number: ");
+
+    scanf("%d",&a);
+
+    printf("Enter Second Number: ");
+
+    scanf("%d",&b);
+
+    printf("Enter Third Number: ");
+
+    scanf("%d",&c);
+
+
+    if(a==b==c)
+
+    {
+
+        printf("First Second and Third Values are equal");
+
+    }
+
+
+    else if(a==b && a!=c)
+
+    {
+
+        if(a==b && a>c)
+
+        {
+
+            printf("First and Second values are equal and Greater than Third value");
+
+        }
+
+        else if(c>a && c>b)
+        {
+
+            printf("Third value is Greater");
+
+        }
+
+    }
+
+
+    else if(a==c && a!=b)
+
+    {
+
+        if(a==c && a>b)
+
+        {
+
+            printf("First and Third values are equal and Greater than Second value");
+
+            
+        }
+
+        else if(b>a && b>c)
+
+        {
+
+            printf("Second Value is greater");
+
+            
+        }
+
+    }
+
+
+    else if(b==c && b!=a)
+
+    {
+
+        if(b==c && b>a)
+
+        {
+
+            printf("Second and Third Values are equal and Greater");
+
+            
+        }
+
+        else if(a>b && a>c)
+
+        {
+
+            printf("First value is greater");
+
+            
+        }
+
+    }
+
+
+    else if(a>b && a>c)
+
+    {
+
+        printf("First value is greater");
+
+    }
+
+
+    else if(b>a && b>c)
+
+    {
+
+        printf("Second value is Greater");
+
+    }
+
+
+    else if(c>a && c>b)
+
+    {
+
+        printf("Third value is Greater");
+
+    }
+
+
+
+}
