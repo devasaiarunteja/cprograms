@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int i,j;
+
+    printf("Each Ticket Costs 150Rs\n");
+
+    printf("Ticket Cost includes GST\n");
+
+    printf("Enter Nnumber of Tickets:");
+
+    scanf("%d",&i);
+
+
+    if(i<=0)
+
+    {
+
+        printf("Please Enter valid number of Tickets!");
+
+    }
+
+    else
+
+    {
+
+        j=i*150;
+
+        printf("Total cost of %d Tickets is: %d Rupees",i,j);
+
+    }
+
+
+}
