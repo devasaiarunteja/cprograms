@@ -1,0 +1,55 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int i;
+
+    double c1,c2,f1,f2;
+
+    printf(" 0 for converting celcius to farenheit\n 1 for converting farenheit to celcius\n");
+
+    scanf("%d",&i);
+
+    
+    if(i==0)
+
+    {
+
+        printf("Enter celcius to be converted:");
+
+        scanf("%lf",&c1);
+
+        f1=(1.80)*c1+32;
+
+        printf("%.lf celcius is equal to %lf farenheit",c1,f1);
+
+        
+    }
+ 
+   else if(i==1)
+
+    {
+
+        printf("Enter farenheit to be converted:");
+
+        scanf("%lf",&f2);
+
+        c2=(0.55555555555)*(f2-32);
+
+        printf("%lf farenheit is equal to %lf celcius",f2,c2);
+
+        
+    }
+
+    else
+
+    {
+
+        printf("Enter valid option");
+
+	}
+return 0;
+}
+   
